@@ -1,0 +1,76 @@
+
+#instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+#instructions h3{
+    text-align: center;
+    color: burlywood;
+    margin-top: -5%;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+#instructions p{
+    font-weight: bolder;
+    text-align: justify;
+    font-style: italic;
+    color: red;
+    padding-bottom: 3%;
+}
+
+
+#regForm {
+    background-color: white;
+    /* margin: 100px auto; */
+    padding: 40px;
+  }
+  #regForm h1{
+      color: #008753;
+  }
+  label{
+      margin-bottom: 2%;
+  }
+
+  #firstName{
+    margin-bottom: 2%;
+    font-weight: bolder;
+  }
+  .myform{
+      max-width:60%;
+      margin-left: 2%;
+      border: 3px solid #eee;
+  }
+
+
+  
+ 
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  
+  body{
+      background-image: url(../img/bg2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      overflow-y: hidden;
+  }
+  
+  
+  
+
+
+
+
+
+
