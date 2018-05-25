@@ -60,7 +60,44 @@ html {
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
   }
-  
-.main{
-    
+  .all{
+      margin-top: -400px;
+  }
+.labogini{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car1.jpg) no-repeat center center;
+    margin-left: 450px;
+    background-size: cover;
+    margin-top: 50px;
+}
+.aventana{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car2.jpeg) no-repeat center center;
+    background-size: cover;
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
+}
+.car1{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/rolls-royce-phantom-1.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.car2{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car4.jpeg) no-repeat center center;
+    background-size: cover;
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
 }
