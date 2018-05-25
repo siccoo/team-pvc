@@ -1,0 +1,80 @@
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #80deea;
+    border-radius: 4px;
+} 
+
+.card-header {
+    color: #0097A7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #80DEEA;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 15px 0;
+}
+
+.main-description {
+    color: rgb(50, 139, 50);
+    font-size: 16px;
+    text-align: center;
+    animation: 2s linear 2s infinite alternate;
+}
+#vote {
+    color: brown;
+    font-size: 16px;
+    text-shadow: dimgrey;
+    font-weight: 500;
+
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: dimgrey;
+}
+
+.btn:hover {
+box-shadow: 0 10px 10px 0 rgba(31, 25, 25, 0.2), 0 10px 20px 0 rgba(17, 16, 16, 0.19);
+cursor: pointer;
+}
+
+.btn-green:hover {
+    background-color: #008753;
+}
+
+.btn-danger:hover {
+    background-color: rosybrown;
+}
