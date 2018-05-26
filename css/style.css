@@ -100,6 +100,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: .5rem;
+  font-family: "Din", sans-serif;
 }
 
 button {
