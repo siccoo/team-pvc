@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+  }
+  
+  body {
+    color: #6a7583;
+    font-family: "Tofino Personal Regular", -apple-system, BlinkMacSystemFont, Segoe UI, "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  } */
+  
+  .header {
+    height: 100vh;
+    background: url(../img/bg2.png);
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: #008753;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: .5rem 2rem;
+    transition: all .3s;
+  }
+  
+  nav li a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+  }
+  .all{
+      margin-top: -400px;
+  }
+.labogini{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car1.jpg) no-repeat center center;
+    margin-left: 450px;
+    background-size: cover;
+    margin-top: 50px;
+}
+.aventana{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car2.jpeg) no-repeat center center;
+    background-size: cover;
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
+}
+.car1{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/rolls-royce-phantom-1.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.car2{
+    border: 1px solid #0e2c07;
+    height: 200px;
+    width: 300px;
+    background: url(../img/car4.jpeg) no-repeat center center;
+    background-size: cover;
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
+}
