@@ -648,59 +648,42 @@ input {
 
 /* ============ Chilaka Lazy Nigerian Page ================ */
 
-body {
-  background-image: url(img/bg2.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align: center;
-
-  /* overflow-y: hidden; */
-}
-
-.sidebars {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 30px;
-  height: 100vh;   
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.sidebar {
-  margin-left: 50px;
-}
-
-.sidebar2 {
-  font-size: 24px;
-  padding: 0;
-  margin: 0;
-}
-
 .btn1 {
   color: #ffffff;
   background: #008750;
-  padding: 60px;
+  padding: 70px 40px;
   border: 1px #ffffff;
-  border-radius: 30px;
 }
 
 .btn2 {
   color: #ffffff;
   background: #800000;
-  padding: 60px;
+  padding: 70px 40px;
   border: 1px #ffffff;
-  border-radius: 30px;
+} 
+
+.btn1 a, .btn2 a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
 }
 
+.section__lazy{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.section__lazy .options{
+  margin-left: 50px;
+}
+
+.section__lazy div{
+  margin: 8px -10px 8px 0px;
+}
+
+.btn1:hover, .btn2:hover{
+  background: #6a7583;
+}
 
 /* ================ End chilaka Lazy Nigerian ==================== */
 
